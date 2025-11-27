@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Relatório de Atividades</h1>
+
+    <form id="documentForm">
+        <fieldset>
+        <legend>Informações Gerais</legend>
+        <label>Titulo:</label>
+        <imput type="text" id="titulo" required>
+
+        <label>Tipo:</label>
+        <select id="tipo">
+            <option value="Relatório">Relatório</option>
+            <option value="Planejamento">Planejamento</option>
+        </select>
+
+        <label>Ano:</label>
+        <imput type="number" id="Ano" min="1900" max="2100" required>
+
+        <label>Status:</label>
+        <select id="Status">
+            <option value="Aprovado">Aprovado</option>
+            <option value="Em revisão">Em revisão</option>
+            <option value="Cancelado">Cancelado</option>
+        </select>
+    </fieldset>
+</form>
+
+</body>
+</html>
